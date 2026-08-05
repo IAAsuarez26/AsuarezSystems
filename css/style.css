@@ -192,6 +192,42 @@
   color: #FFFFFF;
 }
 
+/* Light Mode Footer Contrast Enhancements */
+[data-theme="light"] .site-footer {
+  background: #F1F5F9;
+  border-top: 1px solid #CBD5E1;
+}
+
+[data-theme="light"] .footer-brand p {
+  color: #334155;
+}
+
+[data-theme="light"] .footer-links h4 {
+  color: #020617;
+  font-weight: 700;
+}
+
+[data-theme="light"] .footer-links ul li a {
+  color: #1E293B;
+  font-weight: 500;
+}
+
+[data-theme="light"] .footer-links ul li a:hover {
+  color: #2563EB;
+}
+
+[data-theme="light"] .social-links a {
+  color: #2563EB;
+  font-weight: 600;
+}
+
+[data-theme="light"] .footer-bottom {
+  background: #E2E8F0;
+  border-top: 1px solid #CBD5E1;
+  color: #475569;
+  font-weight: 500;
+}
+
 /* --- RESET & BASE STYLES --- */
 *, *::before, *::after {
   box-sizing: border-box;
