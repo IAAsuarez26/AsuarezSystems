@@ -369,6 +369,42 @@ document.addEventListener('DOMContentLoaded', () => {
         btnText: 'Inquire / Purchase via WhatsApp',
         whatsappMsg: 'Hello Asuarez Systems, I am interested in the *Executive KPI Dashboard ($350 USD)*.'
       }
+    },
+    'proxmox-suite': {
+      es: {
+        category: 'INFRAESTRUCTURA & VIRTUALIZACIÓN',
+        title: 'Suite de Virtualización In-House Proxmox VE',
+        price: '$580 USD',
+        desc: 'Despliegue integral de infraestructura de virtualización empresarial on-premise basada en Proxmox VE. Reemplace altos costos de licenciamiento (VMware/Broadcom, Hyper-V) por un cluster de alta disponibilidad, almacenamiento distribuido Ceph y respaldo continuo.',
+        features: [
+          'Cluster Proxmox VE Multi-nodo con Alta Disponibilidad (HA)',
+          'Configuración de Almacenamiento Distribuido Ceph SAN/NAS',
+          'Plan de Migración sin Downtime desde VMware / Hyper-V',
+          'Integración con Proxmox Backup Server (PBS) y deduplicación',
+          'Firewall de Red, VLANs y Monitoreo centralizado Grafana/Prometheus',
+          'Capacitación al equipo de IT interno y documentación técnica'
+        ],
+        featuresTitle: 'Características Incluidas:',
+        btnText: 'Cotizar / Adquirir por WhatsApp',
+        whatsappMsg: 'Hola Asuarez Systems, estoy interesado en la *Suite de Virtualización In-House Proxmox VE ($580 USD)*.'
+      },
+      en: {
+        category: 'INFRASTRUCTURE & VIRTUALIZATION',
+        title: 'Proxmox VE In-House Virtualization Suite',
+        price: '$580 USD',
+        desc: 'Comprehensive deployment of enterprise on-premise virtualization infrastructure powered by Proxmox VE. Replace high licensing fees (VMware/Broadcom, Hyper-V) with a High Availability cluster, Ceph distributed storage, and automated backups.',
+        features: [
+          'Multi-node Proxmox VE Cluster with High Availability (HA)',
+          'Ceph SAN/NAS Distributed Storage Configuration',
+          'Downtime-Free Migration Plan from VMware / Hyper-V',
+          'Integration with Proxmox Backup Server (PBS) & Deduplication',
+          'Network Firewall, VLANs & Centralized Grafana/Prometheus Monitoring',
+          'Internal IT Team Training & Technical Documentation'
+        ],
+        featuresTitle: 'Included Features:',
+        btnText: 'Inquire / Purchase via WhatsApp',
+        whatsappMsg: 'Hello Asuarez Systems, I am interested in the *Proxmox VE In-House Virtualization Suite ($580 USD)*.'
+      }
     }
   };
 

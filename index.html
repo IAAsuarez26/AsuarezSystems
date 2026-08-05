@@ -386,6 +386,20 @@ enterpriseSystem.<span class="code-func">deployToCloud</span>({ region: <span cl
               <li data-i18n="serv4_f3">Modelos de Facturación Automatizada</li>
             </ul>
           </article>
+
+          <!-- Card 5 -->
+          <article class="service-card glass-card">
+            <div class="card-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#00F0FF" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <h3 data-i18n="serv5_title">Virtualización In-House Proxmox VE</h3>
+            <p data-i18n="serv5_desc">Diseño, migración e implementación de clusters Proxmox VE con almacenamiento distribuido Ceph, alta disponibilidad (HA) y cero costos de licencias propietarias.</p>
+            <ul class="card-features">
+              <li data-i18n="serv5_f1">Clusters Proxmox VE HA + Ceph Storage</li>
+              <li data-i18n="serv5_f2">Migración sin Downtime desde VMware / Hyper-V</li>
+              <li data-i18n="serv5_f3">Proxmox Backup Server (PBS) & Firewall</li>
+            </ul>
+          </article>
         </div>
 
         <div class="section-cta-box glass-card">
@@ -416,6 +430,7 @@ enterpriseSystem.<span class="code-func">deployToCloud</span>({ region: <span cl
           <button class="filter-btn" data-filter="saas" data-i18n="filter_saas">SaaS Boilerplates</button>
           <button class="filter-btn" data-filter="automation" data-i18n="filter_automation">Kits de Automatización</button>
           <button class="filter-btn" data-filter="dashboards" data-i18n="filter_dashboards">Dashboards & Admin</button>
+          <button class="filter-btn" data-filter="infra" data-i18n="filter_infra">Infraestructura & Proxmox</button>
         </div>
 
         <!-- Products Grid -->
@@ -505,6 +520,28 @@ enterpriseSystem.<span class="code-func">deployToCloud</span>({ region: <span cl
                 <span class="price-type" data-i18n="prod4_type">Licencia Empresarial</span>
               </div>
               <button class="btn btn-outline btn-sm open-product-modal" data-product="exec-dashboard" data-i18n="prod_btn">Ver Detalle</button>
+            </div>
+          </article>
+
+          <!-- Product 5 -->
+          <article class="product-card glass-card" data-category="infra">
+            <div class="product-badge" data-i18n="prod5_badge">Enterprise HA</div>
+            <div class="product-icon-wrap">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#00F0FF" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <h3 data-i18n="prod5_title">Suite de Virtualización In-House Proxmox VE</h3>
+            <p data-i18n="prod5_desc">Solución empaquetada para virtualización de servidores on-premise en Proxmox VE: configuración de cluster HA, almacenamiento Ceph, copias de seguridad automatizadas con PBS y plantilla de infraestructura como código.</p>
+            <div class="product-tags">
+              <span>Proxmox VE</span>
+              <span>Ceph SAN</span>
+              <span>PBS Backup</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-val">$580</span>
+                <span class="price-type" data-i18n="prod5_type">Setup & Deploy Kit</span>
+              </div>
+              <button class="btn btn-outline btn-sm open-product-modal" data-product="proxmox-suite" data-i18n="prod_btn">Ver Detalle</button>
             </div>
           </article>
         </div>
@@ -1044,6 +1081,7 @@ enterpriseSystem.<span class="code-func">deployToCloud</span>({ region: <span cl
                 <option value="Sitio Corporativo Enterprise">Sitio Corporativo Enterprise</option>
                 <option value="Desarrollo de Software Custom">Desarrollo de Software Custom</option>
                 <option value="Automatización & IA Empresarial">Automatización & IA Empresarial</option>
+                <option value="Virtualización Proxmox VE In-House">Virtualización Proxmox VE In-House & Infraestructura</option>
                 <option value="Landing Page Profesional">Landing Page Profesional</option>
                 <option value="Comprar Producto Digital / SaaS Starter">Comprar Producto Digital / SaaS Starter</option>
               </select>

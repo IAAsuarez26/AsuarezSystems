@@ -79,6 +79,12 @@ const translations = {
     serv4_f2: 'Conexión WhatsApp Business API',
     serv4_f3: 'Modelos de Facturación Automatizada',
 
+    serv5_title: 'Virtualización In-House Proxmox VE',
+    serv5_desc: 'Diseño, migración e implementación de clusters Proxmox VE con almacenamiento distribuido Ceph, alta disponibilidad (HA) y cero costos de licencias propietarias.',
+    serv5_f1: 'Clusters Proxmox VE HA + Ceph Storage',
+    serv5_f2: 'Migración sin Downtime desde VMware / Hyper-V',
+    serv5_f3: 'Proxmox Backup Server (PBS) & Firewall',
+
     services_cta_title: '¿Dudas sobre qué solución se adapta mejor a tu estructura actual?',
     services_cta_desc: 'Ofrecemos una sesión de diagnóstico tecnológico sin compromiso de 20 minutos.',
     services_cta_btn: 'Solicitar Diagnóstico Gratuito',
@@ -92,6 +98,7 @@ const translations = {
     filter_saas: 'SaaS Boilerplates',
     filter_automation: 'Kits de Automatización',
     filter_dashboards: 'Dashboards & Admin',
+    filter_infra: 'Infraestructura & Proxmox',
 
     prod1_badge: 'Top Ventas',
     prod1_title: 'Smart RAG Assistant Widget',
@@ -112,6 +119,11 @@ const translations = {
     prod4_title: 'Executive KPI & Operations Dashboard',
     prod4_desc: 'Panel interactivo para gerentes con gráficos en tiempo real, reportes automatizados en PDF y exportación de métricas clave.',
     prod4_type: 'Licencia Empresarial',
+
+    prod5_badge: 'Enterprise HA',
+    prod5_title: 'Suite de Virtualización In-House Proxmox VE',
+    prod5_desc: 'Solución empaquetada para virtualización de servidores on-premise en Proxmox VE: configuración de cluster HA, almacenamiento Ceph, copias de seguridad automatizadas con PBS y plantilla de infraestructura como código.',
+    prod5_type: 'Setup & Deploy Kit',
 
     prod_btn: 'Ver Detalle',
 
@@ -386,6 +398,12 @@ const translations = {
     serv4_f2: 'WhatsApp Business API Connection',
     serv4_f3: 'Automated Invoicing Models',
 
+    serv5_title: 'In-House Proxmox VE Virtualization',
+    serv5_desc: 'Design, migration, and deployment of Proxmox VE clusters with Ceph distributed storage, High Availability (HA), and zero proprietary licensing costs.',
+    serv5_f1: 'Proxmox VE HA Clusters + Ceph Storage',
+    serv5_f2: 'Downtime-Free Migration from VMware / Hyper-V',
+    serv5_f3: 'Proxmox Backup Server (PBS) & Firewall',
+
     services_cta_title: 'Unsure which solution fits your current infrastructure best?',
     services_cta_desc: 'We offer a 20-minute no-obligation tech discovery session.',
     services_cta_btn: 'Request Free Discovery Session',
@@ -399,6 +417,7 @@ const translations = {
     filter_saas: 'SaaS Boilerplates',
     filter_automation: 'Automation Kits',
     filter_dashboards: 'Dashboards & Admin',
+    filter_infra: 'Infrastructure & Proxmox',
 
     prod1_badge: 'Top Seller',
     prod1_title: 'Smart RAG Assistant Widget',
@@ -419,6 +438,11 @@ const translations = {
     prod4_title: 'Executive KPI & Operations Dashboard',
     prod4_desc: 'Interactive manager dashboard with real-time charts, automated PDF reports, and key metric export.',
     prod4_type: 'Enterprise License',
+
+    prod5_badge: 'Enterprise HA',
+    prod5_title: 'Proxmox VE In-House Virtualization Suite',
+    prod5_desc: 'Packaged solution for on-premise server virtualization with Proxmox VE: HA cluster setup, Ceph storage, automated PBS backups, and infrastructure-as-code template.',
+    prod5_type: 'Setup & Deploy Kit',
 
     prod_btn: 'View Details',
 
